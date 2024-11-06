@@ -1,0 +1,1 @@
+# Node tool using jsforce to check static resource CRUD calls

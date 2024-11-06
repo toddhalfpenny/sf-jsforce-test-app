@@ -1,0 +1,30 @@
+{
+  "name": "sf-jsforce-test-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix src test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "jsforce": "^3.6.2"
+  },
+  "devDependencies": {
+    "@types/jsforce": "^1.11.5",
+    "@types/node": "^22.9.0",
+    "eslint": "^9.14.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
